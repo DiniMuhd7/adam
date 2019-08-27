@@ -1,2 +1,2 @@
-const env = process.env.NODE_ENV || 80;
+const env = process.env.NODE_ENV || 'production';
 export default env; 
