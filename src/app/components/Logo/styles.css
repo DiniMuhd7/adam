@@ -1,0 +1,35 @@
+@import '../../styles/variables/variables.css';
+@import '../../styles/mixins/mixins.css';
+
+.miniTitle {
+    margin: 0;
+    font-family: $fontFamilyMedium;
+    font-size: 1em;
+    letter-spacing: -0.02em;
+    line-height: 1.2em;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    a{
+     color: $cl-miniTitle;
+     margin-top: -8px; 
+     transform: skewY(-2deg);
+     @media (min-width:$sm) {
+        margin-top: -10px; 
+     }
+     
+    }
+    a:hover {
+     color: $cl-miniTitle;
+    }
+}
+
+.miniTitleActive {
+    opacity: 1;
+    visibility: visible;
+}

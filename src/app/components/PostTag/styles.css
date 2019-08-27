@@ -1,0 +1,28 @@
+@import '../../styles/variables/variables.css';
+
+
+mark{
+    font-size: 1em;
+    padding: 0 .6em 0 20px;
+    position: relative;
+    background-color: $bg-postTag;
+    color: $cl-postTag;
+    font-family: $fontFamilyMedium;
+    
+    &:before{
+        content: "";
+        position: absolute;
+        background-image: url(../../assets/images/icons/tag.svg);
+        background-repeat: no-repeat;
+        background-size: 15px;
+        left: 0px;
+        top: 4px;
+        width: 15px;
+        height: 15px;
+
+    }
+    
+    &:hover{
+        color: $cl-postTagHover;
+    }
+}

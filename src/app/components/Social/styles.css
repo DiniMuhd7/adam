@@ -1,0 +1,50 @@
+@import '../../styles/mixins/mixins.css';
+
+.socialBoxWrap{   
+    display: flex;
+    justify-content: space-between;
+    width: 124px;
+    height: 20px;
+    margin: 0 0 26px;
+    padding: 0;
+    list-style: none;
+    li {
+        flex: 1 1 100%;
+        display: flex;
+        a,
+        span{
+            width: 100%;
+        }
+        span{
+            text-align: center;
+            display: block;
+        }
+    }
+    &:hover > li span{
+        opacity: .5;
+        
+    }
+}
+
+ul li {
+    &:nth-child(1){
+        span{
+            @mixin socialIcon linkedin;
+        }
+    }
+    &:nth-child(2){
+        span{
+            @mixin socialIcon github;
+        }
+    }
+    &:nth-child(3){
+        span{
+            @mixin socialIcon twitter;
+        }
+    }
+    &:nth-child(4){
+        span{
+            @mixin socialIcon email;        }
+    }
+    
+}

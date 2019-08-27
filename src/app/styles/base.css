@@ -1,0 +1,34 @@
+@import 'variables/variables.css';
+@import 'mixins/mixins.css';
+
+@import 'fonts.css';
+@import 'code.css';
+@import 'globals.css';
+
+html{
+    height: 100%;
+    background: $bg-back
+}
+
+body {
+    background-color: $bg-body;
+    color: $cl-body;
+    font-family: $fontFamilyLight;
+    font-webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: $md) {
+  body {
+    font-size: 15px;
+  }
+}
+@media (min-width: $lg) {
+  body {
+    font-size: 16px;
+  }
+}

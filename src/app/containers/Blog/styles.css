@@ -1,0 +1,14 @@
+@import '../../styles/variables/variables.css';
+@import '../../styles/mixins/mixins.css';
+
+.blog {
+  @mixin blogContent;
+  .content{
+    margin: 30px auto 100px;
+  }
+}
+
+
+.shape{
+  @mixin shape;
+}

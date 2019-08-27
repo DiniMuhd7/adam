@@ -1,0 +1,39 @@
+@import '../../styles/base.css';
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    border: none;
+    text-decoration: none;
+    color: $primary-color;
+    cursor: pointer;
+    &:hover{
+        color: $secondary-color; 
+    }
+}
+
+p {
+    font-size: 1.15em;
+    margin: 0.8em 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    min-height: 100%;
+}
+
+main.container {
+    margin-bottom: $mrgb-mainContainer;
+    background: $bg-mainContainer;
+
+}
+
+.app{
+    height: 100%;
+}
