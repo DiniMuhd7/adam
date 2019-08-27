@@ -1,8 +1,8 @@
 {
-  "name": "pablomagaz.com",
-  "version": "1.0.1",
+  "name": "dinisoft.dev",
+  "version": "1.0.2",
   "description": "Made with React Base Isomorphic Redux",
-  "author": "Pablo Magaz",
+  "author": "Shamsudeen Muhammed Adam",
   "main": "client/client.js",
   "scripts": {
     "logo": "node ./src/base/conf/.react-base/logo.js",
@@ -31,7 +31,9 @@
     "yo": "npm link src/base/conf/.react-base/templates/generator-react-base",
     "postYeomanGenerator": "npm run regenerate && npm run start",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
-    "postinstall": "npm run generate:dll"
+    "postinstall": "npm run generate:dll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "babel-core": "6.26.0",
@@ -43,6 +45,7 @@
     "create-reduxreducer": "^1.0.0",
     "css-modules-require-hook": "4.2.3",
     "express": "4.16.3",
+    "gh-pages": "^2.1.1",
     "helmet": "3.13.0",
     "html-react-parser": "0.7.0",
     "isomorphic-fetch": "2.2.1",
@@ -129,12 +132,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atsistemas/react-base"
+    "url": "git+https://github.com/atsistemas/react-base.git"
   },
   "bugs": {
     "url": "https://github.com/atsistemas/react-base/issues"
   },
-  "homepage":"https://dini-adam.github.io/dinisoft",
+  "homepage": "https://dini-adam.github.io/",
   "license": "MIT",
   "keywords": [
     "react",
