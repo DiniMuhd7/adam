@@ -7,7 +7,7 @@ import Main from 'containers/Main/';
 import Post from 'containers/Post/';
 
 const routes = (
-  <Route path="https://floating-tundra-89588.herokuapp.com/" component={ App }>
+  <Route path="/" component={ App }>
     <IndexRoute component={ Main } />
     <Route path="/main" component={ Main } />
     <Route path="/blog" component={ Blog } />
