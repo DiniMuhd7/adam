@@ -10,7 +10,7 @@ const numPosts = 10;
 const blogImage = 'https://pablomagaz.com/assets/images/postcover/blog.svg';
 const blogTitleImage = 'assets/images/share/ElBlogIsomorfico.png';
 const brandTitleImage = 'assets/images/share/PabloMagaz.png';
-const postOpeningChars = 46;
+const postOpeningChars = 500;
 const codeHighlightDelay = 750;
 const postOpeningSplitChar = '</h2>';
 const addThisUrl = 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59c0d1b1697ac737';
