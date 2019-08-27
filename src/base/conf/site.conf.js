@@ -43,7 +43,7 @@ let DisqusSettings;
 if (env === 'development') {
   Ssl = false;
   Protocol = Ssl ? 'https://' : 'http://';
-  HostName = 'localhost:3000';
+  HostName = 'localhost:8000';
   ServerUrl = `http://${ HostName }`;
   SiteUrl = `${ ServerUrl }`;
   clientSecret = '285ee4eda6c3';
