@@ -64,7 +64,7 @@ if (env === 'development') {
 } else {
   Ssl = true;
   Protocol = Ssl ? 'https://' : 'http://';
-  HostName = 'pablomagaz.com';
+  HostName = 'floating-tundra-89588.herokuapp.com';
   ServerUrl = `${ Protocol }${ HostName }`;
   SiteUrl = `${ ServerUrl }`;
   clientSecret = '113542417eed';
