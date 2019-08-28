@@ -32,7 +32,7 @@
     "postYeomanGenerator": "npm run regenerate && npm run start",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
     "postinstall": "npm run generate:dll",
-    "predeploy": "npm run dist",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
