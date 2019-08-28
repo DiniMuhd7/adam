@@ -10,7 +10,7 @@ export default function main(params) {
     <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>${ SiteConf.SiteTitle }</title>
+    <title>${ SiteConf.BlogTitle }</title>
     <link rel="alternate" hreflang="es" href="https://pablomagaz.com" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
