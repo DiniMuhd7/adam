@@ -33,7 +33,7 @@
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
     "postinstall": "npm run generate:dll",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d webpack"
   },
   "dependencies": {
     "babel-core": "6.26.0",
