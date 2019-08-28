@@ -15,9 +15,9 @@ workbox.precaching.suppressWarnings();
 
 self._precacheManifest = [
   'https://pablomagaz.com/offline.html',
-  'https://pablomagaz.com/assets/app.094fe6a845230213329f.js',
-  'https://pablomagaz.com/assets/vendor.094fe6a845230213329f.js',
-  'https://pablomagaz.com/assets/styles.c0cabc07a9a5edf12a536109c981efd8.css'
+  'https://pablomagaz.com/assets/app.ef9485811db38b7d7ac2.js',
+  'https://pablomagaz.com/assets/vendor.ef9485811db38b7d7ac2.js',
+  'https://pablomagaz.com/assets/styles.30971f7c1844c8af13a2a98d3b9b7d8f.css'
 ];
 
 workbox.precaching.precacheAndRoute(self._precacheManifest, {});
@@ -103,4 +103,5 @@ self.addEventListener('notificationclick', event => {
   const { url } = event.notification.data;
   if (url) event.waitUntil(clients.openWindow(url));
 });
+
 
